@@ -7,9 +7,10 @@ using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Concrete
+namespace Entities.Concretes
 {
-    public class Category:Entity<int>
+    public class Category : Entity<int> 
+    { 
       
         public string Name { get; set; }
         public List<Course> Courses { get; set; }

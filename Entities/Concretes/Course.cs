@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Concrete
+namespace Entities.Concretes
 {
-    public class Course:Entity<string>
+    public class Course:Entity<int>
     {
         public int CourseId { get; set; }
         public string Name { get; set; }

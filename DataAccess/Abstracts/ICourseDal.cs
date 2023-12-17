@@ -1,7 +1,7 @@
 ﻿using Core.DataAccess;
-using Entities.Concrete;
+using Entities.Concretes;
 
-namespace DataAccess.Abstract
+namespace DataAccess.Abstracts
 {
     public interface ICourseDal : IEntityRepository<Course, int>
     {
